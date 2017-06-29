@@ -5,6 +5,11 @@
 	<Application.Resources>
 
 		<!-- Application resource dictionary -->
-
+        <ResourceDictionary>
+            <Style x:Key="baseCellStyle" TargetType="Button">
+                <Setter Property="FontSize" Value="22" />
+                <Setter Property="BackgroundColor" Value="LightBlue"></Setter>
+            </Style>
+        </ResourceDictionary>
 	</Application.Resources>
 </Application>
